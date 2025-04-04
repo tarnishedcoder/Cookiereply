@@ -21,6 +21,6 @@
 
 1. Clone or download the repository:
    ```sh
-   git clone https://github.com/yourusername/cookiereply.git
+   git clone https://github.com/tarnishedcoder/cookiereply.git
    cd cookiereply
 
