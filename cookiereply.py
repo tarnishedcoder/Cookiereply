@@ -12,4 +12,3 @@ for i in range(25):  # input the number of the range of cookies for search
         print(r.text)
 
 # this has been made for ctf purposes :3
-#:3
