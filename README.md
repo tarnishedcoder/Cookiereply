@@ -1,5 +1,26 @@
-Summary of cookiereply
-The loop iterates through a range of numbers.
-For each number, it constructs a cookie with that number as a value.
-It sends an HTTP GET request to a specified URL with that cookie.
-If the request is successful (status 200) and the response contains a specific word or phrase, it prints the response content.
+# CookieReply
+
+## Description
+
+**CookieReply** is a simple Python script designed for **CTF (Capture The Flag)** challenges. It automates testing different cookie values within a specified range and checks for specific output on a target website.
+
+## Features
+
+- Iterates through a range of cookie values.
+- Sends HTTP requests with dynamically set cookie values.
+- Searches for specific text within the webpage's response.
+- Prints the response if the target text is found.
+
+## Requirements
+
+- Python 3.x
+- Required Python library:
+  - `requests`
+
+## Installation
+
+1. Clone or download the repository:
+   ```sh
+   git clone https://github.com/yourusername/cookiereply.git
+   cd cookiereply
+
