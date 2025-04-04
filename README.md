@@ -11,7 +11,7 @@
 - Searches for specific text within the webpage's response.
 - Prints the response if the target text is found.
 
-## Requirements
+## Requirements 💻
 
 - Python 3.x
 - Required Python library:
@@ -24,3 +24,12 @@
    git clone https://github.com/tarnishedcoder/cookiereply.git
    cd cookiereply
 
+2. Install the required dependency:
+   ```sh
+   pip install requests
+
+3. Run the script:
+   ```sh
+   python cookie_reply.py
+have fun doing ctfs 😸
+   
